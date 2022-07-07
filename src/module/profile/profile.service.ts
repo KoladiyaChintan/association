@@ -2,8 +2,6 @@ import { Inject, Injectable } from '@nestjs/common';
 import { Address } from 'src/entities/address.entity';
 import { Company } from 'src/entities/company.entity';
 import { User } from 'src/entities/user.entity';
-import { AddressDto } from './dto/address.dto';
-import { CompanyDto } from './dto/company.dto';
 import { UserDto } from './dto/user.dto';
 
 @Injectable()
